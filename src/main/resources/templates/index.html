@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script type="text/javascript" th:src="@{/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/app.js}"></script>
+
+</head>
+<body>
+    <p>Hi</p>
+
+    <input type="number" id="searchId" placeholder="Search By ID" />
+    <button id="btnSearchId">SEARCH</button>
+
+    <form id="employeeForm">
+        <input type="text" id="firstName" placeholder="Enter employee first name"/>
+        <input type="text" id="lastName" placeholder="Enter employee last name"/>
+        <input type="text" id="id" placeholder="Enter ID"/>
+        <input type="text" id="position" placeholder="Enter Position"/>
+        <input type="text" id="salary" placeholder="Enter Salary"/>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
